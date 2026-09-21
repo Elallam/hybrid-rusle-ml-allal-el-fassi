@@ -1,0 +1,7 @@
+Reference,Year,Country,Watershed,Method,Best_Model,R2,RMSE,Validation_Type,Journal
+Gayen et al.,2019,India,Chahinda catchment,"LR, RF",Random Forest,TBD,TBD,Non-spatial k-fold,Catena
+Pham et al.,2020,Vietnam,N/A,REPTree ensembles,REPTree+Bagging,TBD,TBD,10-fold CV,Catena
+Avand et al.,2021,Iran,N/A,ML flood/erosion models,TBD,TBD,TBD,TBD,Earth Science Informatics
+Ouallali et al.,2020,Morocco,Sebou-adjacent,RUSLE + field sediment yield,RUSLE,TBD,TBD,Field validation,Catena
+Benavidez et al.,2018,Global review,N/A,R/USLE review,N/A,N/A,N/A,N/A,NHESS
+This study (J1),2026,Morocco,"Allal El Fassi, Sebou Basin","RF, XGBoost, GB, CatBoost, Stacking, ANN-Res, CNN-LSTM-Attention, Transformer",Stacking Ensemble,0.622,27.74,SLOOCV + spatial block CV,Catena (target)

@@ -1,0 +1,20 @@
+Model,Parameter,Search_Range,Best_Value,CV_R2
+Random Forest,n_estimators,"[300, 500, 700]",700,0.5705001391818062
+Random Forest,min_samples_leaf,"[1, 2, 4]",4,0.5705001391818062
+Random Forest,max_depth,"[None, 15, 25]",,0.5705001391818062
+XGBoost,n_estimators,"[400, 600, 800]",600,0.5662713987932855
+XGBoost,max_depth,"[4, 6, 8]",6,0.5662713987932855
+XGBoost,learning_rate,"[0.01, 0.03, 0.05]",0.03,0.5662713987932855
+Gradient Boosting,n_estimators,fixed (literature-informed),400,
+Gradient Boosting,learning_rate,fixed (literature-informed),0.05,
+Gradient Boosting,max_depth,fixed (literature-informed),5,
+Gradient Boosting,subsample,fixed (literature-informed),0.75,
+Gradient Boosting,random_state,fixed (literature-informed),42,
+CatBoost,iterations,fixed (literature-informed),500,
+CatBoost,learning_rate,fixed (literature-informed),0.05,
+CatBoost,depth,fixed (literature-informed),6,
+CatBoost,l2_leaf_reg,fixed (literature-informed),3,
+CatBoost,random_state,fixed (literature-informed),42,
+CatBoost,verbose,fixed (literature-informed),0,
+CatBoost,task_type,fixed (literature-informed),GPU,
+CatBoost,devices,fixed (literature-informed),0,

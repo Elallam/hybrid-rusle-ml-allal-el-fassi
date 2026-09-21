@@ -1,0 +1,40 @@
+Feature,VIF,Status,Reason
+Vegetation_fraction,inf,Remove,Severe multicollinearity (VIF>10)
+C_Factor,inf,Remove,Severe multicollinearity (VIF>10)
+SAVI,2897.568748777685,Remove,Severe multicollinearity (VIF>10)
+MSAVI,1934.3565105021542,Remove,Severe multicollinearity (VIF>10)
+R_Factor,1142.7604881995862,Remove,Severe multicollinearity (VIF>10)
+Annual_Rainfall,665.8853007407027,Remove,Severe multicollinearity (VIF>10)
+EVI,500.5535958781884,Remove,Severe multicollinearity (VIF>10)
+R_K_interaction,430.2295694707593,Remove,Severe multicollinearity (VIF>10)
+TWI,371.3403958277111,Remove,Severe multicollinearity (VIF>10)
+NDVI,354.4058510616778,Remove,Severe multicollinearity (VIF>10)
+SPI,167.5546143342539,Remove,Severe multicollinearity (VIF>10)
+CI,128.5260082250293,Remove,Severe multicollinearity (VIF>10)
+BSI,65.3221219406901,Remove,Severe multicollinearity (VIF>10)
+NDBI,62.92998247962245,Remove,Severe multicollinearity (VIF>10)
+Max_Monthly_Rain,55.399476138104674,Remove,Severe multicollinearity (VIF>10)
+LS_Factor,51.3225759665725,Remove,Severe multicollinearity (VIF>10)
+K_Factor,47.98073637496386,Remove,Severe multicollinearity (VIF>10)
+Slope,42.3314220016822,Remove,Severe multicollinearity (VIF>10)
+Erosivity_index,39.90491853411137,Remove,Severe multicollinearity (VIF>10)
+NDWI,38.02968884808225,Remove,Severe multicollinearity (VIF>10)
+Rainfall_Seasonality,35.52356319657797,Remove,Severe multicollinearity (VIF>10)
+Modified_BSI,32.72460230754285,Remove,Severe multicollinearity (VIF>10)
+TRI,31.26362867260922,Remove,Severe multicollinearity (VIF>10)
+LS_C_interaction,16.880195454443086,Remove,Severe multicollinearity (VIF>10)
+Albedo,10.566638342398091,Remove,Severe multicollinearity (VIF>10)
+Sand_Content,8.771579954942306,Keep (moderate),
+SOC,6.793888734652346,Keep (moderate),
+TPI,4.7947470782975685,Keep,
+Elevation,4.242434666673804,Keep,
+Curvature_Profile,3.4705128251857933,Keep,
+Bulk_Density,3.1898893966512545,Keep,
+Curvature_Plan,3.084814626743043,Keep,
+Clay_Content,2.9726491208756505,Keep,
+Valley_Depth,2.2128086100411672,Keep,
+STI,2.1399925214991042,Keep,
+Flow_Accumulation,2.005779361292796,Keep,
+P_Factor,1.4385881359039279,Keep,
+Aspect_cos,1.1519333786662802,Keep,
+Aspect_sin,1.10334025850297,Keep,
