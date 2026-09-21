@@ -27,3 +27,5 @@ Thumbs.db
 # Private until the paper is accepted
 paper/J1_manuscript_draft.md
 paper/J1_cover_letter.md
+
+.gitigore
